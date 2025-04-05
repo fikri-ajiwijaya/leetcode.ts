@@ -19,7 +19,7 @@
 		"commands": [
 			{
 				"match": "\\.ts$",
-				"cmd": "./run-on-save '${workspaceFolder}' '${fileDirname}/${fileBasenameNoExt}'"
+				"cmd": "./test/run-on-save '${file}' '${workspaceFolder}'"
 			}
 		]
 	}

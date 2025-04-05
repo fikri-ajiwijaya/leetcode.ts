@@ -28,6 +28,7 @@ RUN \
 		. $HOME/.nvm/nvm.sh && \
 		npm install npm --save-dev && \
 		npx npm install typescript --save-dev \
+		npx npm install @types/node --save \
 	"
 
 USER root
