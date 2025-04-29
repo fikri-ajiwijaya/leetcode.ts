@@ -1,0 +1,15 @@
+{
+	"build": {
+		"dockerfile": "typescript/Dockerfile",
+		"args": {
+			"tools": "git less man vim"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"emeraldwalk.RunOnSave"
+			]
+		}
+	}
+}
