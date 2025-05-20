@@ -1,3 +1,6 @@
 [submodule ".devcontainer/typescript"]
 	path = .devcontainer/typescript
 	url = https://github.com/desmond-rhodes/.devcontainer.typescript
+[submodule "test"]
+	path = test
+	url = https://github.com/desmond-rhodes/test.ts
